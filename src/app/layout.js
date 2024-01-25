@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body style={{ backgroundImage:  'url("/background.jpg")', height: '100vh', margin: '0px', padding: '0px', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}  className={inter.className}>{children}</body>
     </html>
   );
 }
